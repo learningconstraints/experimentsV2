@@ -1,0 +1,5 @@
+class_weight,criterion,file,max_depth,max_features,max_leaf_nodes,min_impurity_decrease,min_samples_leaf,min_samples_split,min_weight_fraction_leaf,presort,random_state,results,splitter
+,entropy,dataset,50,,90,1e-07,10,2,0.0,False,,./data3/video-0001-classification.csv,best
+,mse,dataset,50,,90,1e-07,10,2,0.0,False,,./data3/video-0001-regression.csv,best
+,entropy,dataset,50,,90,1e-07,10,2,0.0,False,,./data3/video-0002-classification.csv,best
+,mse,dataset,50,,90,1e-07,10,2,0.0,False,,./data3/video-0002-regression.csv,best

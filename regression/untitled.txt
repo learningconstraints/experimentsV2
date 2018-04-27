@@ -1,0 +1,3 @@
+1) Present classification approach with metric perf examples, different learning curves and heatmaps, with and without hyperparam optimization, with different construction metric (accuracy, precision, recall)
+
+2) Compare with regression with ROC Curves, error location, 
