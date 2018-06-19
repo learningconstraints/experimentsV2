@@ -1,0 +1,12 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Finest <= 0.5\ngini = 0.302\nsamples = 54\nvalue = [44, 10]\nclass = Acceptable"] ;
+1 [label="gini = 0.0\nsamples = 37\nvalue = [37, 0]\nclass = Acceptable"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="S100MiB <= 0.5\ngini = 0.484\nsamples = 17\nvalue = [7, 10]\nclass = Non-acceptable"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="gini = 0.0\nsamples = 10\nvalue = [0, 10]\nclass = Non-acceptable"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 7\nvalue = [7, 0]\nclass = Acceptable"] ;
+2 -> 4 ;
+}

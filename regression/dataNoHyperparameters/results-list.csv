@@ -1,0 +1,11 @@
+class_weight,criterion,file,max_depth,max_features,max_leaf_nodes,min_impurity_decrease,min_samples_leaf,min_samples_split,min_weight_fraction_leaf,presort,random_state,results,splitter
+,gini,Apache,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/Apache-0001-classification.csv,best
+,mse,Apache,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/Apache-0002-regression.csv,best
+,gini,BerkeleyC,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/BerkeleyC-0001-classification.csv,best
+,mse,BerkeleyC,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/BerkeleyC-0002-regression.csv,best
+,gini,BerkeleyJ,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/BerkeleyJ-0001-classification.csv,best
+,mse,BerkeleyJ,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/BerkeleyJ-0002-regression.csv,best
+,gini,Dune,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/Dune-0001-classification.csv,best
+,mse,Dune,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/Dune-0002-regression.csv,best
+,gini,HIPAcc,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/HIPAcc-0001-classification.csv,best
+,mse,HIPAcc,,,,1e-07,1,2,0.0,False,,./dataNoHyperparameters/HIPAcc-0002-regression.csv,best

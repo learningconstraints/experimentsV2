@@ -1,0 +1,16 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="HAVE_CRYPTO <= 0.5\ngini = 0.409\nsamples = 768\nvalue = [548, 220]\nclass = Acceptable"] ;
+1 [label="gini = 0.0\nsamples = 396\nvalue = [396, 0]\nclass = Acceptable"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="PS4K <= 0.5\ngini = 0.483\nsamples = 372\nvalue = [152, 220]\nclass = Non-acceptable"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="PS1K <= 0.5\ngini = 0.382\nsamples = 296\nvalue = [76, 220]\nclass = Non-acceptable"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 220\nvalue = [0, 220]\nclass = Non-acceptable"] ;
+3 -> 4 ;
+5 [label="gini = 0.0\nsamples = 76\nvalue = [76, 0]\nclass = Acceptable"] ;
+3 -> 5 ;
+6 [label="gini = 0.0\nsamples = 76\nvalue = [76, 0]\nclass = Acceptable"] ;
+2 -> 6 ;
+}

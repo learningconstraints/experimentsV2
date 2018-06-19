@@ -1,0 +1,23 @@
+class_weight,criterion,file,max_depth,max_features,max_leaf_nodes,min_impurity_decrease,min_samples_leaf,min_samples_split,min_weight_fraction_leaf,presort,random_state,results,splitter
+"1   NaN
+Name: class_weight, dtype: float64","1    gini
+Name: criterion, dtype: object",x264,"1   NaN
+Name: max_depth, dtype: float64","1   NaN
+Name: max_features, dtype: float64","1    20.0
+Name: max_leaf_nodes, dtype: float64","1    1.000000e-07
+Name: min_impurity_decrease, dtype: float64","1    1
+Name: min_samples_leaf, dtype: int64","1    2
+Name: min_samples_split, dtype: int64","1    0.0
+Name: min_weight_fraction_leaf, dtype: float64","1    False
+Name: presort, dtype: bool","1   NaN
+Name: random_state, dtype: float64",./data5/x264_Time-0001-classification.csv,"1    best
+Name: splitter, dtype: object"
+,gini,x264,,,20.0,1e-07,1,2,0.0,False,,./data5/x264_Time-0001-classification.csv,best
+,gini,x264,,,20,0,1,2,0.0,False,,./data5/x264_Time-0001-classification.csv,best
+,mse,x264,5,,20,0,2,2,0.0,False,,./data5/x264_Time-0001-regression.csv,best
+,mae,x264,5,,20,0,2,2,0.0,False,,./data5/x264_Watt-0001-regression.csv,best
+,gini,x264,,,,0,1,2,0.0,False,,./data5/x264_Watt-0002-classification.csv,best
+,entropy,x264,5,,100,0,1,2,0.0,False,,./data5/x264_Speed-0001-classification.csv,best
+,entropy,x264,5,,150,0,1,2,0.0,False,,./data5/x264_Energy-0001-classification.csv,best
+,entropy,x264,20,,20,0,1,2,0.0,False,,./data5/x264_Size-0001-classification.csv,best
+,mse,x264,5,,40,0,1,2,0.0,False,,./data5/x264_Size-0002-regression.csv,best

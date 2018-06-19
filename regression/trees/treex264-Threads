@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="crfRatio <= 5.5\ngini = 0.49\nsamples = 13800\nvalue = [7899, 5901]\nclass = Acceptable"] ;
+1 [label="gini = 0.0\nsamples = 5901\nvalue = [0, 5901]\nclass = Non-acceptable"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.0\nsamples = 7899\nvalue = [7899, 0]\nclass = Acceptable"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
